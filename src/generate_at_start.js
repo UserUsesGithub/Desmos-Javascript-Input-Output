@@ -1,4 +1,5 @@
 // Note that, unless this has been set up when making the graph, it will erase it
+let isAlreadyGenerated = false;
 const expressions=Calc.getExpressions()
 for (let i = 0; i < 7; i++) {
   console.log(expressions[i])
