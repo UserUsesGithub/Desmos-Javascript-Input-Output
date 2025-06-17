@@ -3,7 +3,7 @@ const expressions=Calc.getExpressions()
 for (let i = 0; i < 7; i++) {
   console.log(expressions[i])
   if ((expressions[i] !== undefined)) {
-      if ((expressions[i].id)===("IoLibParameters"+i.toString())) {
+      if ((expressions[i].id)===(watchID+i.toString())) {
           isAlreadyGenerated = true
       }
   }
