@@ -1,3 +1,4 @@
+lastValue=''
 function getExprValue(expr) {
     return expr.latex.slice(6);
 }
