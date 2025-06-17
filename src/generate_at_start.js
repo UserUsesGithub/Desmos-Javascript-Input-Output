@@ -9,7 +9,6 @@ for (let i = 0; i < 7; i++) {
   }
 }
 
-console.log(isAlreadyGenerated)
 if (!isAlreadyGenerated) {
     Calc.setBlank()
     for (let i = 0; i < 7; i++) {
